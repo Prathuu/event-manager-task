@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(112, 1, 112);
+}
+
+.form-container {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/add-event-background.jpg');
+    background-size: cover;
+
+    * {
+        border-radius: 0;
+    }
+
+    .col {
+
+        .card {
+            border: 2px solid white;
+
+            .card-header {
+                border-bottom: 1px solid white;
+            }
+
+            .card-body {
+                form {
+                    .input {
+                        background-color: transparent;
+                        color: white;
+                    }
+
+                    option {
+                        background-color: rgba($color: #6c059c, $alpha: 1) !important;
+                    }
+
+                    * {
+                        font-weight: 500;
+                        height: 3rem;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    button {
+                        background-color: transparent;
+                        border: 1px solid white;
+                        font-weight: 500;
+                        color: white;
+                        width: 50%;
+                        margin: 0 auto;
+                        justify-content: center;
+
+                        &:hover {
+                            background-color: white;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.event-lists {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../images/event-list-background.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+
+    button {
+        background-color: white;
+        color: black;
+        text-align: center;
+        font-weight: 500;
+        border-radius: 0;
+        &:hover{
+            background-color: white;
+        }
+    }
+
+    .collapse {
+        border: 1px solid white;
+        border-top: none;
+    }
+}

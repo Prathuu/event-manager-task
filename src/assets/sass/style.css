@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #700170;
+}
+
+.form-container {
+  min-height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("../images/add-event-background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/add-event-background.jpg");
+  background-size: cover;
+}
+
+.form-container * {
+  border-radius: 0;
+}
+
+.form-container .col .card {
+  border: 2px solid white;
+}
+
+.form-container .col .card .card-header {
+  border-bottom: 1px solid white;
+}
+
+.form-container .col .card .card-body form .input {
+  background-color: transparent;
+  color: white;
+}
+
+.form-container .col .card .card-body form option {
+  background-color: #6c059c !important;
+}
+
+.form-container .col .card .card-body form * {
+  font-weight: 500;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-container .col .card .card-body form button {
+  background-color: transparent;
+  border: 1px solid white;
+  font-weight: 500;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-container .col .card .card-body form button:hover {
+  background-color: white;
+  color: black;
+}
+
+.event-lists {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("../images/event-list-background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/event-list-background.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+}
+
+.event-lists button {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 0;
+}
+
+.event-lists button:hover {
+  background-color: white;
+}
+
+.event-lists .collapse {
+  border: 1px solid white;
+  border-top: none;
+}
+/*# sourceMappingURL=style.css.map */
